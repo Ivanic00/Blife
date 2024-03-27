@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+.app{
+    height: 100vh;
+    background-color: white;
+}
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+.Banner{
+    height: 63vh; 
+    background-color: #000;
+    background-image: url('../images/Banner.png');
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 0;
+}
+.offer{
+    display: flex;
+    align-items: center;
+    height: 63vh;
+    float: right;
+    margin-right: 8rem;
+}
+.offer img{
+    height: 50vh;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 10px; 
+    margin-bottom: 10vh;
+
+}
